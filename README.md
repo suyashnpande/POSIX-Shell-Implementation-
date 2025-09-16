@@ -2,7 +2,7 @@
 
 ##  Overview
 
-This project is a **POSIX-compliant interactive shell** implemented in **C++** for **Advanced Operating Systems (Assignment 2, Monsoon 2025)**. 
+This project is a **POSIX-compliant interactive shell** implemented in **C++**.
 
 It supports **foreground/background execution, built-in commands (cd, ls, echo, pwd, pinfo, search), pipes, redirection, signal handling, command history, and autocomplete**, mimicking key features of a modern UNIX shell.  
 
@@ -160,7 +160,7 @@ The `search` command recursively checks for a file/folder starting from the **cu
 
 
 ---
-### Autocomplete
+### 11. Autocomplete
 ``` bash
 Examples:  
 - `ec<TAB>` → auto-fills to `echo`  
@@ -174,7 +174,7 @@ Autocomplete is implemented using the **readline library** with a custom complet
 
 
 ---
-### History
+### 12. History
 ```bash
 history        # shows last 10 commands  
 history 5      # shows last 5 commands  
